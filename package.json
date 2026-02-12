@@ -1,1 +1,1 @@
-{"name": "your-project-name", "version": "1.0.0", "scripts": {"postinstall": "drizzle-kit generate || true"}}
+{\n  \"name\": \"my-love-for-you-is-real\",\n  \"version\": \"1.0.0\",\n  \"main\": \"dist/index.cjs\",\n  \"scripts\": {\n    \"start\": \"NODE_ENV=production node dist/index.cjs\",\n    \"postinstall\": \"drizzle-kit generate || true\"\n  },\n  \"dependencies\": {\n    \"express\": \"^4.17.1\",\n    \"dotenv\": \"^10.0.0\"\n  },\n  \"devDependencies\": {\n    \"jest\": \"^27.0.0\",\n    \"typescript\": \"^4.0.0\"\n  }\n}
