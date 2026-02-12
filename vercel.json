@@ -1,0 +1,1 @@
+{\n  \"version\": 2,\n  \"builds\": [\n    {\n      \"src\": \"api/**/*.js\",\n      \"use\": \"@vercel/node\"\n    },\n    {\n      \"src\": \"*.html\",\n      \"use\": \"@vercel/static\"\n    },\n    {\n      \"src\": \"*.js\",\n      \"use\": \"@vercel/static\"\n    }\n  ],\n  \"routes\": [\n    {\n      \"src\": \"/api/(.*)\",\n      \"dest\": \"/api/$1.js\"\n    }\n  ]\n}
